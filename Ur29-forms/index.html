@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Работа с формами</h1>
+
+<p>1.  Дана форма с id="form". В ней даны инпуты, в них числа. Дана кнопка. По
+    нажатию на эту кнопку получите форму по ее id,
+    затем циклом переберите все инпуты в ней и найдите сумму чисел из этих инпутов.</p>
+
+<form name="form">
+    <input type="text">
+    <input type="text">
+    <button id="zd1" type="submit">Получить сумму</button>
+</form>
+
+
+
+<p>2.  На странице расположено несколько форм.
+    В них есть инпуты, в инпутах числа. Дана кнопка.
+    По нажатию на эту кнопку циклом переберите все формы на странице,
+    затем циклом переберите все инпуты в каждой форме и найдите сумму чисел из всех этих инпутов.</p>
+
+<form name="form2">
+    <input type="text">
+    <input type="text">
+</form>
+
+<form name="form3">
+    <input type="text">
+    <input type="text">
+</form>
+
+<button id="zd2">Получить сумму</button>
+
+<p>3.  Дан селект. Дан инпут. По изменению селекта выведите текст выбранного пункта в инпут.</p>
+
+<select name="zd3" id="zd3">
+    <option value="22">22</option>
+    <option value="33">33</option>
+    <option value="44">44</option>
+</select>
+<input type="text" id="res3">
+
+
+
+
+<p>4. Дан селект. Дан инпут. Дана кнопка.
+    Сделайте так, чтобы в инпут можно было ввести число,
+    нажать на кнопку и в селекте становился выбранным пункт с этим номером.</p>
+
+<select name="zd4" id="zd4">
+    <option value="22">q</option>
+    <option value="33">w</option>
+    <option value="44">r</option>
+</select>
+<input type="text" id="res4">
+
+
+<p>5. Дан селект со списком стран.
+    Сделайте так, чтобы при выборе страны рядом появлялся еще и селект со списком городов из этой страны.</p>
+
+<select name="zd5" id="country">
+    <option value="ua">Украина</option>
+    <option value="by">Беларусь</option>
+    <option value="pl">Польша</option>
+</select>
+
+
+<script src="ur29.js"></script>
+</body>
+</html>
