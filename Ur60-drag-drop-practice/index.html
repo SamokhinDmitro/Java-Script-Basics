@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ur60-drag-drop</title>
+
+    <style>
+        .panel{
+            width: 500px;
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            border: 2px solid green;
+        }
+
+        .elem{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border: 2px solid #000
+        }
+
+        .parent-box{
+            margin-top: 30px;
+            width: 400px;
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid blue
+        }
+
+        .hide{
+            opacity: 40%;
+            border: 2px dotted red;
+        }
+
+
+    </style>
+</head>
+<body>
+<!-- Давайте научимся перемещать один элемент на другой. Таким образом можно реализовать, к примеру, несколько панелей каких-то иконок и перемещать эти иконки с одной панели на другую. -->
+
+<div class="panel">
+    <div class="elem">111</div>
+    <div class="elem">222</div>
+    <div class="elem">333</div>
+    <div class="elem">444</div>
+    <div class="elem">555</div>
+    <div class="elem">666</div>
+</div>
+
+<div class="parent-box">
+
+</div>
+
+<script src="ur60.js"></script>
+</body>
+</html>
